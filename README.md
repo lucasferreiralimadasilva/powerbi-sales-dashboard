@@ -59,6 +59,27 @@ O dashboard foi desenvolvido para acompanhar:
 
 ![Timeline](images/dashboard-timeline.png)
 
+## 🏗️ Arquitetura da Solução
+
+```text
+Excel
+   │
+   ▼
+Power Query
+   │
+   ▼
+Modelagem de Dados
+   │
+   ▼
+DAX
+   │
+   ▼
+Dashboard Power BI
+   │
+   ▼
+Business Insights
+```
+
 ## 🔄 Roadmap
 
 - [ ] Forecast utilizando Machine Learning
