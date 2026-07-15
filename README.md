@@ -43,6 +43,22 @@ O dashboard foi desenvolvido para acompanhar:
 - Comparativo histórico
 - Comparativo entre períodos
 
+### Indicadores
+
+![KPIs](images/dashboard-kpis.png)
+
+---
+
+### Vendas por Categoria
+
+![Categorias](images/dashboard-categories.png)
+
+---
+
+### Evolução das Vendas
+
+![Timeline](images/dashboard-timeline.png)
+
 ## 🔄 Roadmap
 
 - [ ] Forecast utilizando Machine Learning
