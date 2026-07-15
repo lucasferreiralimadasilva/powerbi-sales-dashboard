@@ -1,3 +1,7 @@
+# 📊 Power BI Sales Dashboard
+
+![Dashboard](images/Sales Performance BI.png.png)
+
 # Power BI Sales Dashboard
 
 ## Overview
