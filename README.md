@@ -92,6 +92,17 @@ Business Insights
 - Business Intelligence
 - Reporting Executivo
 
+## 📈 Insights Gerados
+
+O dashboard permite responder perguntas como:
+
+- Qual categoria apresenta maior faturamento?
+- Como o desempenho evolui ao longo dos meses?
+- O ticket médio está aumentando ou diminuindo?
+- Qual é a projeção de fechamento do ano?
+- Quais produtos possuem maior participação nas vendas?
+- Como o desempenho atual se compara aos anos anteriores?
+
 ## 🔄 Roadmap
 
 - [ ] Forecast utilizando Machine Learning
