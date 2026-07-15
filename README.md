@@ -2,111 +2,222 @@
 
 ![Dashboard](images/dashboard-overview.png)
 
-# 📊 Power BI Sales Dashboard
+Dashboard desenvolvido para monitoramento de indicadores comerciais utilizando **Power BI**, **Power Query**, **DAX** e **Excel**, com foco em transformar dados em informações estratégicas para apoio à tomada de decisão.
 
-Dashboard desenvolvido para monitoramento de indicadores comerciais, utilizando Power BI, Power Query, DAX e Excel.
-
-> **⚠️ Aviso**
+> ⚠️ **Aviso**
 >
-> Este projeto utiliza dados fictícios para fins de demonstração. O objetivo é apresentar técnicas de modelagem, análise de dados e construção de dashboards em Power BI.
+> Este projeto utiliza **dados fictícios** para fins de demonstração. O objetivo é apresentar técnicas de modelagem de dados, ETL, desenvolvimento de KPIs e construção de dashboards em Power BI.
 
-## 🚀 Tecnologias
+---
 
-- 📊 Power BI
+# 🚀 Tecnologias
+
+- 📊 Power BI Desktop
 - 🔄 Power Query
 - 📐 DAX
-- 📈 Excel
+- 📈 Microsoft Excel
 - 📋 Business Intelligence
 
-## 🎯 Objetivo
+---
+
+# 🏢 Business Challenge
+
+Empresas que trabalham com vendas frequentemente possuem informações distribuídas em planilhas, dificultando o acompanhamento dos indicadores comerciais e a tomada de decisão.
+
+O objetivo deste projeto foi transformar esses dados em um dashboard interativo capaz de fornecer informações estratégicas através de indicadores de desempenho e análises históricas.
+
+---
+
+# 🎯 Objetivo
 
 Construir uma solução de Business Intelligence capaz de transformar dados de vendas em informações estratégicas para apoio à tomada de decisão.
 
 O dashboard foi desenvolvido para acompanhar:
 
-- Receita total
-- Evolução das vendas
-- Ticket médio
+- Receita Total
+- Evolução das Vendas
+- Ticket Médio
 - Produtos mais vendidos
-- Categorias com melhor desempenho
-- Forecast de vendas
-
-- ## ✨ Funcionalidades
-
-- Dashboard interativo
-- KPIs
-- Segmentação por Ano
-- Segmentação por Categoria
-- Segmentação por Status
-- Análise temporal
-- Forecast de vendas
-- Comparativo histórico
+- Categorias com maior faturamento
+- Forecast de Vendas
 - Comparativo entre períodos
 
-### Indicadores
+---
+
+# 📸 Dashboard
+
+## Visão Geral
+
+![Dashboard Geral](images/dashboard-overview.png)
+
+Painel principal contendo KPIs, gráficos de evolução, segmentações e indicadores estratégicos para acompanhamento do desempenho comercial.
+
+---
+
+## Indicadores
 
 ![KPIs](images/dashboard-kpis.png)
 
+Visualização dos principais indicadores comerciais para acompanhamento da operação.
+
 ---
 
-### Vendas por Categoria
+## Vendas por Categoria
 
 ![Categorias](images/dashboard-categories.png)
 
+Comparativo entre categorias para identificação das maiores fontes de receita.
+
 ---
 
-### Evolução das Vendas
+## Evolução das Vendas
 
 ![Timeline](images/dashboard-timeline.png)
 
-## 🏗️ Arquitetura da Solução
+Análise temporal permitindo identificar sazonalidade e evolução do faturamento.
+
+---
+
+# 📊 KPIs Monitorados
+
+- Receita Total
+- Ticket Médio
+- Total de Itens Vendidos
+- Receita por Categoria
+- Receita por Produto
+- Receita por Período
+- Forecast de Receita
+- Meta Comercial
+
+---
+
+# ✨ Funcionalidades
+
+- Dashboard Interativo
+- KPIs Executivos
+- Segmentação por Ano
+- Segmentação por Categoria
+- Segmentação por Status
+- Segmentação por Período
+- Comparativo Histórico
+- Forecast de Vendas
+- Visualização por Produto
+- Análise Temporal
+
+---
+
+# 🏗️ Arquitetura da Solução
 
 ```text
 Excel
-   │
-   ▼
-Power Query
-   │
-   ▼
+        │
+        ▼
+Power Query (ETL)
+        │
+        ▼
 Modelagem de Dados
-   │
-   ▼
+        │
+        ▼
 DAX
-   │
-   ▼
+        │
+        ▼
 Dashboard Power BI
-   │
-   ▼
+        │
+        ▼
 Business Insights
 ```
 
-## 💼 Competências Demonstradas
+---
 
-- Modelagem de Dados
+# 💼 Competências Demonstradas
+
+Este projeto evidencia conhecimentos em:
+
+- Data Modeling
 - ETL com Power Query
 - Criação de Medidas em DAX
-- Desenvolvimento de KPIs
-- Visualização de Dados
+- Business Intelligence
+- Dashboard Design
+- Data Visualization
 - Storytelling com Dados
 - Forecast de Vendas
-- Business Intelligence
+- Indicadores de Performance (KPIs)
 - Reporting Executivo
 
-## 📈 Insights Gerados
+---
 
-O dashboard permite responder perguntas como:
+# 📌 Project Summary
 
-- Qual categoria apresenta maior faturamento?
-- Como o desempenho evolui ao longo dos meses?
+| Item | Descrição |
+|------|-----------|
+| Ferramenta | Power BI Desktop |
+| Fonte de Dados | Excel |
+| ETL | Power Query |
+| Linguagem Analítica | DAX |
+| Tipo de Dashboard | Comercial |
+| Público-alvo | Gestão / Diretoria |
+| Atualização | Manual (Excel) |
+
+---
+
+# 📈 Principais Resultados
+
+O dashboard permite:
+
+- ✔ Monitorar indicadores comerciais em tempo real
+- ✔ Comparar desempenho entre anos
+- ✔ Acompanhar evolução mensal das vendas
+- ✔ Identificar categorias mais rentáveis
+- ✔ Avaliar o ticket médio
+- ✔ Projetar o fechamento anual através de Forecast
+- ✔ Apoiar decisões comerciais baseadas em dados
+
+---
+
+# 💡 Insights Gerados
+
+O dashboard responde perguntas importantes como:
+
+- Qual categoria gera maior faturamento?
+- Como as vendas evoluem ao longo do tempo?
 - O ticket médio está aumentando ou diminuindo?
-- Qual é a projeção de fechamento do ano?
-- Quais produtos possuem maior participação nas vendas?
-- Como o desempenho atual se compara aos anos anteriores?
+- Qual a projeção de fechamento do ano?
+- Quais produtos apresentam melhor desempenho?
+- Como o resultado atual se compara aos anos anteriores?
 
-## 🔄 Roadmap
+---
+
+# 📚 Sobre o Projeto
+
+Este dashboard foi desenvolvido como projeto de portfólio para demonstrar conhecimentos em Business Intelligence.
+
+Toda a estrutura foi construída utilizando dados fictícios, preservando boas práticas de modelagem, visualização de dados e desenvolvimento de indicadores estratégicos.
+
+---
+
+# 🔄 Roadmap
+
+Melhorias planejadas para versões futuras:
 
 - [ ] Forecast utilizando Machine Learning
 - [ ] Página Financeira
 - [ ] Dashboard Mobile
 - [ ] Indicadores de Rentabilidade
-- [ ] Automatização da atualização dos dados
+- [ ] Atualização automática dos dados
+- [ ] Integração com banco de dados SQL
+- [ ] Publicação no Power BI Service
+
+---
+
+# 👨‍💻 Autor
+
+**Lucas Ferreira Lima da Silva**
+
+Caso queira conhecer mais projetos ou entrar em contato:
+
+- 💼 LinkedIn: *((https://www.linkedin.com/in/lucas-ferreira-7b357844))*
+- 🐙 GitHub: https://github.com/lucasferreiralimadasilva
+
+---
+
+⭐ Se este projeto foi útil ou interessante para você, considere deixar uma estrela no repositório.
