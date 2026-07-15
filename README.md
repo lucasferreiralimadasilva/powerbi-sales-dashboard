@@ -80,6 +80,18 @@ Dashboard Power BI
 Business Insights
 ```
 
+## 💼 Competências Demonstradas
+
+- Modelagem de Dados
+- ETL com Power Query
+- Criação de Medidas em DAX
+- Desenvolvimento de KPIs
+- Visualização de Dados
+- Storytelling com Dados
+- Forecast de Vendas
+- Business Intelligence
+- Reporting Executivo
+
 ## 🔄 Roadmap
 
 - [ ] Forecast utilizando Machine Learning
