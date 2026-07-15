@@ -2,73 +2,51 @@
 
 ![Dashboard](images/dashboard-overview.png)
 
-# Power BI Sales Dashboard
+# 📊 Power BI Sales Dashboard
 
-## Overview
+Dashboard desenvolvido para monitoramento de indicadores comerciais, utilizando Power BI, Power Query, DAX e Excel.
 
-Este projeto demonstra a construção de um dashboard comercial completo utilizando Power BI.
-
-O objetivo é transformar dados brutos em indicadores gerenciais para apoiar a tomada de decisão.
-
-> **Importante**
+> **⚠️ Aviso**
 >
-> Os dados apresentados neste projeto são fictícios e foram utilizados exclusivamente para fins de demonstração e portfólio.
+> Este projeto utiliza dados fictícios para fins de demonstração. O objetivo é apresentar técnicas de modelagem, análise de dados e construção de dashboards em Power BI.
 
----
+## 🚀 Tecnologias
 
-## Tecnologias
+- 📊 Power BI
+- 🔄 Power Query
+- 📐 DAX
+- 📈 Excel
+- 📋 Business Intelligence
 
-- Power BI
-- Power Query
-- DAX
-- Excel
+## 🎯 Objetivo
 
----
+Construir uma solução de Business Intelligence capaz de transformar dados de vendas em informações estratégicas para apoio à tomada de decisão.
 
-## Principais Indicadores
+O dashboard foi desenvolvido para acompanhar:
 
-- Receita Total
-- Ticket Médio
-- Itens Vendidos
-- Meta Comercial
-- Forecast
-- Receita por Categoria
-- Receita por Produto
-- Receita por Período
+- Receita total
+- Evolução das vendas
+- Ticket médio
+- Produtos mais vendidos
+- Categorias com melhor desempenho
+- Forecast de vendas
 
----
+- ## ✨ Funcionalidades
 
-## Funcionalidades
+- Dashboard interativo
+- KPIs
+- Segmentação por Ano
+- Segmentação por Categoria
+- Segmentação por Status
+- Análise temporal
+- Forecast de vendas
+- Comparativo histórico
+- Comparativo entre períodos
 
-✔ Segmentação por Ano
+## 🔄 Roadmap
 
-✔ Segmentação por Categoria
-
-✔ Segmentação por Status
-
-✔ KPIs
-
-✔ Forecast
-
-✔ Comparativo Histórico
-
-✔ Dashboard Interativo
-
----
-
-## Estrutura do Projeto
-
-```
-data/
-docs/
-images/
-```
-
----
-
-## Próximos passos
-
-- Melhorar o Forecast
-- Automatizar atualização
-- Criar versão mobile
-- Expandir indicadores financeiros
+- [ ] Forecast utilizando Machine Learning
+- [ ] Página Financeira
+- [ ] Dashboard Mobile
+- [ ] Indicadores de Rentabilidade
+- [ ] Automatização da atualização dos dados
